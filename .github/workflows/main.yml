@@ -23,7 +23,7 @@ jobs:
       - name: Install
         uses: borales/actions-yarn@v4
         with:
-          cmd: add
+          cmd: install
 
       - name: Build
         uses: borales/actions-yarn@v4
